@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Municipal Planning and Development Office of the Municipality of Malilipot, Albay.">
+  <title>MPDO Malilipot | Planning Today. Building Tomorrow.</title>
+  <style>
+    :root{--navy:#153b62;--blue:#2878b9;--sky:#e7f3fc;--ink:#243447;--muted:#617386;--line:#dce6ef;--white:#fff}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#f7fafc}
+    a{color:inherit;text-decoration:none}
+    .wrap{width:min(1120px,92%);margin:auto}
+    header{background:#fff;border-bottom:1px solid var(--line);position:relative;z-index:2}
+    .head{display:flex;align-items:center;gap:16px;padding:13px 0}
+    .logo{width:74px;height:74px;object-fit:contain}
+    .brand{font-weight:700;color:var(--navy);line-height:1.25}
+    .brand small{display:block;font-weight:500;color:var(--muted);font-size:.86rem;margin-top:4px}
+    nav{margin-left:auto;display:flex;gap:22px;flex-wrap:wrap;font-size:.93rem;color:var(--navy)}
+    nav a:hover,.link:hover{color:var(--blue);text-decoration:underline}
+    .hero{background:var(--sky);padding:30px 0 42px}
+    .hero-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:30px;align-items:center}
+    .eyebrow{color:var(--blue);font-weight:700;letter-spacing:.08em;text-transform:uppercase;font-size:.78rem}
+    h1{font-size:clamp(2.2rem,5vw,3.8rem);line-height:1.08;color:var(--navy);margin:12px 0}
+    .hero p{font-size:1.08rem;color:#38546e;max-width:540px}
+    .hero-photo{width:100%;height:340px;object-fit:cover;object-position:center 48%;border-radius:16px;box-shadow:0 12px 30px #153b6220}
+    .btn{display:inline-block;background:var(--navy);color:#fff;padding:11px 18px;border-radius:8px;font-weight:700;margin-top:12px}
+    section{padding:48px 0}
+    h2{color:var(--navy);font-size:1.8rem;margin:0 0 10px}
+    .intro{max-width:800px;color:var(--muted)}
+    .cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:24px}
+    .card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:22px;box-shadow:0 4px 14px #153b6208}
+    .symbol{width:42px;height:42px;border-radius:11px;background:var(--sky);color:var(--blue);display:grid;place-items:center;font-size:1.25rem;font-weight:700}
+    .card h3{color:var(--navy);margin:13px 0 6px}
+    .card p{color:var(--muted);font-size:.94rem;margin:0 0 12px}
+    .link{font-size:.83rem;color:var(--blue);font-weight:700}
+    .feature{background:#fff}
+    .feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .feature-box{background:#f1f7fc;border-radius:14px;padding:24px}
+    .feature-box h3{color:var(--navy);margin-top:0}
+    footer{background:var(--navy);color:#eaf3fb;padding:32px 0}
+    footer h2{color:#fff;font-size:1.35rem}
+    .contact{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px}
+    .note{font-size:.8rem;color:#b8cde0;margin-top:20px}
+    @media(max-width:850px){nav{gap:12px}.hero-grid{grid-template-columns:1fr}.hero-photo{height:300px}.cards{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.head{align-items:flex-start}.logo{width:58px;height:58px}nav{margin:8px 0 0;display:grid;grid-template-columns:repeat(2,auto);gap:6px 14px}.head{flex-wrap:wrap}.cards,.feature-grid,.contact{grid-template-columns:1fr}.hero-photo{height:230px}section{padding:36px 0}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap head">
+    <img class="logo" src="assets/mpdo-logo-concept.png" alt="MPDO Malilipot logo concept">
+    <div class="brand">MUNICIPAL PLANNING AND DEVELOPMENT OFFICE
+      <small>Municipality of Malilipot, Albay</small>
+    </div>
+    <nav aria-label="Main navigation">
+      <a href="#about">About</a><a href="#services">Services</a><a href="activities.html">Office Activities</a><a href="#plans">Plans</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Municipality of Malilipot · Albay</div>
+        <h1 data-cms="home_title">Planning Today. Building Tomorrow.</h1>
+        <p data-cms="home_hero">Promoting inclusive, sustainable, and people-centered development through sound planning and meaningful public participation.</p>
+        <a class="btn" href="#services">Explore MPDO Services</a>
+      </div>
+      <img class="hero-photo" src="assets/municipal-hall.jpg" alt="Municipal Hall of Malilipot with Mayon Volcano in the background">
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="wrap">
+      <h2 data-cms="home_about_title">Welcome to the MPDO Malilipot Planning Portal</h2>
+      <p class="intro" data-cms="home_about">This portal serves as an information and service platform of the Municipal Planning and Development Office of Malilipot, Albay. It provides access to municipal development plans, planning services, zoning information, civil society participation, and local development projects. Through transparent information, responsive services, and collaborative planning, we aim to help build a progressive, inclusive, and sustainable Municipality of Malilipot.</p>
+    </div>
+  </section>
+
+  <section id="services" style="background:#f0f6fb">
+    <div class="wrap">
+      <h2>Our Services</h2>
+      <p class="intro">Explore the MPDO's key service areas and public information.</p>
+      <div class="cards">
+        <article class="card"><div class="symbol">⌖</div><h3>Planning Desk</h3><p>Municipal development plans, investment programs, planning information, and development-related services.</p><a class="link" href="planning-desk.html">EXPLORE PLANNING →</a></article>
+        <article class="card"><div class="symbol">♧</div><h3>CSO Desk</h3><p>CSO accreditation, participation in local governance, capacity development, and community engagement.</p><a class="link" href="cso-desk.html">EXPLORE CSO SERVICES →</a></article>
+        <article class="card"><div class="symbol">▦</div><h3>Zoning Administration</h3><p>Zoning information, land-use regulations, locational clearance procedures, and related services.</p><a class="link" href="zoning.html">EXPLORE ZONING →</a></article>
+        <article class="card"><div class="symbol">⌂</div><h3>Development Projects</h3><p>Municipal development initiatives, project profiles, implementation updates, and monitoring information.</p><a class="link" href="projects.html">EXPLORE PROJECTS →</a></article>
+        <article class="card"><div class="symbol">▤</div><h3>Office Activities & Accomplishments</h3><p>Activity documentation, approved photos, reports, and public MOVs.</p><a class="link" href="activities.html">VIEW ACTIVITY ARCHIVE →</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="plans">
+    <div class="wrap feature-grid">
+      <div class="feature-box"><h3>Municipal Development Information</h3><p>Explore municipal development plans, investment priorities, programs, and projects. Documents will be published after verification and approval for public release.</p></div>
+      <div class="feature-box" id="projects"><h3>Development Projects</h3><p>Project profiles, implementation updates, and monitoring information will be made available as validated records are prepared for publication.</p></div>
+    </div>
+  </section>
+
+  <section class="feature" id="participation">
+    <div class="wrap">
+      <h2>Development Begins with Participation.</h2>
+      <p class="intro">The Municipality of Malilipot recognizes the importance of meaningful public participation in local development. Through collaboration with civil society organizations, communities, and other stakeholders, the MPDO promotes inclusive planning and collective action toward sustainable development.</p>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <h2>Municipal Planning and Development Office</h2>
+    <div data-cms="office_name">Municipality of Malilipot, Albay</div>
+    <div class="contact">
+      <div>📍 <span data-cms="office_address">2/F LGU Building, Belen Street, Poblacion, Malilipot, Albay</span></div>
+      <div>✉ <a href="mailto:MPDO_Malilipot@gmail.com"><span data-cms="office_email">MPDO_Malilipot@gmail.com</span></a></div>
+    </div>
+    <div class="note">Official office hours and other contact channels will be added after verification. Information is published subject to office validation.</div>
+  </div>
+</footer>
+<script src="site-content.js" defer></script>
+</body>
+</html>

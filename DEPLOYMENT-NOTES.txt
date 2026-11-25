@@ -1,0 +1,12 @@
+MPDO MALILIPOT V9 CMS – PREVIEW PACKAGE
+
+1. This package is based on the Initial Public Launch ZIP. Keep the currently working test deployment and official site unchanged.
+2. Upload the contents of this folder to a NEW Cloudflare Pages Preview project/deployment for testing. Do not select Production.
+3. Admin page: /admin.html
+4. The CMS text editor uses the existing Worker API and MPDO_CONTENT KV binding.
+5. File uploads require an R2 bucket and a Worker binding named MPDO_FILES. Create a bucket (for example mpdo-public-files), bind it to the Worker as MPDO_FILES, and deploy mpdo-admin-worker-r2.js as the Worker source. Keep ADMIN_PASSWORD secret and MPDO_CONTENT KV binding unchanged.
+6. The Worker source allows the official Pages domain and the existing V9 test domain. Confirm the exact preview hostname before using the CMS; add it to ALLOWED_ORIGINS if Cloudflare assigns a different hostname.
+7. First test login, save homepage text, upload one harmless test PDF/JPG, publish its resource link, and verify it appears on the corresponding public service page. Do not upload confidential or personal data.
+8. Only after all tests pass should we discuss promoting the build to the official domain.
+
+Important: This is a working first CMS implementation for homepage text and public resource uploads. Other page text and card management can be added in a later phase after the upload/storage flow is verified.
